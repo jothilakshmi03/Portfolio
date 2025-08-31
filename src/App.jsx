@@ -132,7 +132,7 @@ export default function App() {
           </div>
           <div className="col-lg-6 text-center mt-4 mt-lg-0">
             <img
-              src="/Portfolio/jothi.jpg"
+              src="Portfolio/jothi.jpg"
               alt="profile"
               className="img-fluid rounded shadow"
             />
@@ -311,17 +311,27 @@ export default function App() {
           </div>
         </section>
 
-        {/* RESUME */}
-        <section ref={resumeRef} className="container-fluid py-5">
+       {/* RESUME */}
+        <section ref={resumeRef} className="container-fluid py-5 text-center">
           <h2>Resume</h2>
-          <p className="mt-2">Download my resume.</p>
-          <a
-            href="/Jothilakshmi_Resume.pdf"
-            download="Jothilakshmi_Resume.pdf"
-            className="btn btn-primary mt-3"
-          >
-            Download Resume
-          </a>
+          <p className="mt-2">Download or view my resume below.</p>
+          <div className="d-flex justify-content-center gap-3 mt-3">
+            <a
+              href="/Portfolio/Jothilakshmi_Resume.pdf"
+              download="Jothilakshmi_Resume.pdf"
+              className="btn btn-primary"
+            >
+              Download Resume
+            </a>
+            <a
+              href="/Portfolio/Jothilakshmi_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline-light"
+            >
+              View Resume
+            </a>
+          </div>
         </section>
 
         {/* CONTACT */}
