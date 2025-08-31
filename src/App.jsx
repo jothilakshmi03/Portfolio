@@ -132,7 +132,7 @@ export default function App() {
           </div>
           <div className="col-lg-6 text-center mt-4 mt-lg-0">
             <img
-              src="/jothi.jpg"
+              src="/Portfolio/jothi.jpg"
               alt="profile"
               className="img-fluid rounded shadow"
             />
