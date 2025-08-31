@@ -59,23 +59,3 @@ Email: yourmail@example.com
 LinkedIn: Your LinkedIn
 
 GitHub: Your GitHub
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
