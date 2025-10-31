@@ -52,10 +52,5 @@ Deploy to GitHub Pages:
 
 npm run deploy
 
-📬 Contact Me
 
-Email: yourmail@example.com
 
-LinkedIn: Your LinkedIn
-
-GitHub: Your GitHub
