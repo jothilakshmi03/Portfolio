@@ -33,6 +33,14 @@ export default function App() {
       tech: ["Java", "Spring Boot", "MySQL", "Restful APIs"],
       link: "https://github.com/jothilakshmi03/Quiz-application",
     },
+    {
+      id: 3,
+      title: "BOOK FINDER APPLICATION",
+      desc: "• Description: Developed a Book-Finder Application that allows users to search for books by title, author, or genre, and provides detailed information about each book.",
+      tech: ["React+Vite", "Open Library API"],
+      link: "https://jothilakshmi03.github.io/Book-Finder",
+    },
+    
   ];
 
   function scrollTo(ref) {
@@ -115,7 +123,7 @@ export default function App() {
               where I can apply my skills, adapt to new challenges, and build a
               rewarding career.
             </p>
-            <div className="d-flex gap-3 mt-3">
+            <div className="d-flex justify-content-center gap-3 mt-3">
               <button
                 className="btn btn-primary"
                 onClick={() => scrollTo(projectsRef)}
@@ -222,7 +230,6 @@ export default function App() {
                     "C",
                     "JavaScript",
                     "OOPs",
-                    "Data Structures & Algorithms",
                   ].map((lang) => (
                     <div
                       key={lang}
@@ -349,7 +356,7 @@ export default function App() {
               cjothilakshmi2003@gmail.com
             </a>
           </p>
-          <p>Villupuram, Tamilnadu, India</p>
+          <p>Chennai, Tamilnadu, India</p>
 
           <div className="d-flex justify-content-center gap-4 mt-3">
             <a
