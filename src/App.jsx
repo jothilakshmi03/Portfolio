@@ -40,6 +40,20 @@ export default function App() {
       tech: ["React+Vite", "Open Library API"],
       link: "https://jothilakshmi03.github.io/Book-Finder",
     },
+     {
+      id: 4,
+      title: "PATIENT APPOINTMENT BOOKING SYSTEM",
+      desc: "Developed a full stack web application with separate patient and admin modules. Built REST APIs for doctor management, patient registration, login and appointment booking with admin dashboard.",
+      tech: ["Java", "Spring Boot", "React.js", "MySQL", "REST API"],
+      link: "https://github.com/jothilakshmi03/patient-appointment-booking-system",
+    },
+    {
+      id: 5,
+      title: "MEMORY CARD FLIP GAME",
+      desc: "Built an interactive memory card game with 16 cards (8 emoji pairs). Features card flip logic, match detection, timer, move counter and win screen with smooth animations.",
+      tech: ["React.js", "JavaScript", "CSS", "GitHub Pages"],
+      link: "https://jothilakshmi03.github.io/memory-card-game",
+    },
     
   ];
 
