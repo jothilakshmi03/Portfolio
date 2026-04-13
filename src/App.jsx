@@ -338,14 +338,14 @@ export default function App() {
           <p className="mt-2">Download or view my resume below.</p>
           <div className="d-flex justify-content-center gap-3 mt-3">
             <a
-              href="/Portfolio/Jothilakshmi_Resume.pdf"
-              download="Jothilakshmi_Resume.pdf"
+              href="/Portfolio/Jothilakshmi_Resume_Final2.pdf"
+              download="Jothilakshmi_Resume.pdf" //public/Jothilakshmi_Resume_Final2.pdf
               className="btn btn-primary"
             >
               Download Resume
             </a>
             <a
-              href="/Portfolio/Jothilakshmi_Resume.pdf"
+              href="/Portfolio/Jothilakshmi_Resume_Final2.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline-light"
